@@ -1,0 +1,346 @@
+.allert{
+ width: 40%;
+  margin: 0 auto;
+  padding: 10px 5px;
+  overflow: auto;
+  color: #3e4a49;
+text-align: center;
+  background-color: #aaa;
+  background: -webkit-gradient( linear, left bottom, left top, color-stop(0,#cecef6), color-stop(1, #faf8f1) );
+  background: -moz-linear-gradient( center bottom, #cecef6 0%, #faf8f1 100% );  
+  box-shadow: 0 0 .5em rgba(0, 0, 0, .8);
+  -moz-box-shadow: 0 0 .5em rgba(0, 0, 0, .8);
+  -webkit-box-shadow: 0 0 .5em rgba(0, 0, 0, .8);
+}
+.allertp{
+  display: block;
+  padding: .4em 0 0 0;
+  margin: .10em .5em 0 0;
+  color: #f00;
+  }
+.back{
+    /*
+    *usefull section
+    *
+    *
+    
+    
+    
+    
+    
+    */
+}
+ #header{
+    width: 100%;
+  margin: 0 auto;
+  overflow: auto;
+  color: #2f4f4f;
+  background-color: #2f4f4f;
+  background: -webkit-gradient( linear, left bottom, left top, color-stop(0,#2f4f4f), color-stop(1, #2f4f4f) );
+  background: -moz-linear-gradient( center bottom, #2f4f4f 0%, #2f4f4f 100% );  
+    text-align: left;
+
+  }
+  
+ #admin{
+   width: 100%;
+  margin: 0 auto;
+  overflow: auto;
+  color: #aaa;
+  background-color: #aaa;
+  background: -webkit-gradient( linear, left bottom, left top, color-stop(0,#aaa), color-stop(1, #aaa) );
+  background: -moz-linear-gradient( center bottom, #070719 0%, #aaa 100% );  
+   text-align: left;
+
+  }
+
+  ////////// referes to all tablews in the project
+ table{
+ width: 60em;
+  margin: 0;
+  padding: 2px 5px;
+  overflow: auto;
+  color: #000;
+  background-color: #cecef6;
+   border-radius: 2px; 
+ }
+ body{/* this is where to define the background appearance*/
+    background: #fff;
+	    color: #ff7;
+    }
+   
+
+input {
+width: 20%;
+font-size: 10pt;
+padding: .4em 0 0 0;
+margin: .17em .7em 0 0;
+}
+input:focus, textarea:focus{/*  responsible for the light green collour in inputs when focussed */
+background-color: ddffdd;
+
+}
+input submit {
+font-size: 15pt;
+}
+h{
+color: #000000;
+font-size: 25pt;
+font-family:Imprint MT Shadow;
+ 
+}
+h1{
+    color: #000000;
+font-size: 20pt;
+font-family:Imprint MT Shadow;
+}
+p{
+  display: block;
+  float: left;
+  clear: right;
+  text-align: left;
+  width: 80%;
+  padding: .4em 0 0 0;
+  margin: .10em .5em 0 0;
+  color: #000000;
+}
+th{
+ color: #000000;
+font-size: 10pt;
+font-family:Imprint MT Shadow;
+}
+
+label {
+  display: block;
+  float: left;
+  clear: left;
+  text-align: right;
+  width: 45%;
+  padding: .2em 0 0 0;
+  margin: .2em .5em 0 0;
+}
+a{
+  width: 100%;
+  padding: .4em ;
+  margin: .10em .5em 0 0;
+  color: #fff;
+
+    
+}
+
+/*
+*
+*
+*
+end of useful area
+
+
+
+*/
+
+
+.formheader {
+  color: #ffff;
+  background: green;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.9em;
+  font-weight: bold;
+  text-align: center;
+  padding: 5px;
+   border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+}
+	
+/* BODY SECTION*/
+/* ======-===========================*/
+/* for the body of home pages*/
+.homebody {
+
+  width: 70em;
+  margin: 0 auto;
+  padding: 20px 30px;
+  overflow: auto;
+  background-color: #cecef6;
+  
+  
+}
+#bodyContainer {/* the middle container*/
+ color: #3e4a49;
+  width: 70em;
+  margin: 0 auto;
+  padding: 20px 30px;
+  overflow: auto;
+  background-color: #696969;
+  background: -webkit-gradient( linear, left bottom, left top, color-stop(0,#6969696), color-stop(1, #faf8f1) );
+  background: -moz-linear-gradient( center bottom, #696969 0%, #faf8f1 100% );  
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;  
+
+}
+
+
+.homebody2 {
+ color: #3e4a49;
+  width: 40em;
+  margin: 0 auto;
+  padding: 20px 30px;
+  overflow: auto;
+  background-color: #cecef6;
+  background: -webkit-gradient( linear, left bottom, left top, color-stop(0,#cecef6), color-stop(1, #faf8f1) );
+  background: -moz-linear-gradient( center bottom, #cecef6 0%, #faf8f1 100% );  
+  border-radius: 10px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;  
+  box-shadow: 0 0 .5em rgba(0, 0, 0, .8);
+  -moz-box-shadow: 0 0 .5em rgba(0, 0, 0, .8);
+  -webkit-box-shadow: 0 0 .5em rgba(0, 0, 0, .8);
+}
+
+/* BODY GENERAL*/
+/* ===============================*/
+/* for the body of home pages*/
+
+.body {
+ color: #3e4a49;
+ width: 80%;
+  margin: 0 auto;
+  padding: 5px 10px;
+  overflow: auto;
+  background-color: #cecef6;
+  
+ 
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+}
+.body1 {   /* the middle container*/
+ color: #3e4a49;
+  width: 90%;
+  margin: 0 auto;
+  padding: 20px 30px;
+  overflow: auto;
+  background-color: #cecef6;
+  background: -webkit-gradient( linear, left bottom, left top, color-stop(0,#cecef6), color-stop(1, #faf8f1) );
+  background: -moz-linear-gradient( center bottom, #cecef6 0%, #faf8f1 100% );  
+ 
+}
+.body2 {
+ color: #3e4a49;
+  width: 90%;
+  margin: 0 auto;
+  padding: 20px 30px;
+  overflow: auto;
+  background-color: #cecef6;
+  background: -webkit-gradient( linear, left bottom, left top, color-stop(0,#cecef6), color-stop(1, #faf8f1) );
+  background: -moz-linear-gradient( center bottom, #cecef6 0%, #faf8f1 100% );  
+}
+
+.input_area
+ label{
+
+  display: block;
+  float: left;
+  clear: right;
+  text-align: right;
+  width: 45%;
+  padding: .2em 0 0 0;
+  margin: .2em 0 0 0;
+
+}
+/* ============================================ */
+/* the dody backgrounds */
+/* ============================================ */
+
+.logo{
+    color:#fff;
+    font-family: Arial, sans-serif;
+    margin-left: 20px;
+    text-shadow:0 0 0.2em dodgerblue, 0 0 0.2em dodgerblue, 0 0 0.2em dodgerblue, 0 0 0.2em dodgerblue, 0 0 0.2em dodgerblue, 0 0 0.2em dodgerblue;
+}
+.myheader{  /* responsible for the darkcblue header and footer */
+  width: 100%;
+  margin: 5 auto;
+  padding: 10px 5px;
+  overflow: auto;
+  color: #3e4a49;
+background:#070719;
+ border-radius: 10px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;  
+  box-shadow: 0 0 .5em rgba(0, 0, 0, .8);
+  -moz-box-shadow: 0 0 .5em rgba(0, 0, 0, .8);
+  -webkit-box-shadow: 0 0 .5em rgba(0, 0, 0, .8);
+}
+
+body{ 
+ background-color: #cecef6;
+}
+
+input {
+width: 20%;
+font-size: 10pt;
+padding: .4em 0 0 0;
+margin: .17em .7em 0 0;
+}
+input:focus, textarea:focus{/*  responsible for the light green collour in inputs when focussed */
+background-color: ddffdd;
+
+}
+textarea 
+{
+overflow-y: scroll; 
+overflow-x:hidden;
+margin:0;
+width:40%;
+height:70px;
+background:white;
+padding:2px 5px;
+color:#363636;
+font:14px Arial, Helvetica, sans-serif}
+input submit {
+font-size: 15pt;
+}
+h{
+color: #000000;
+font-size: 25pt;
+font-family:Imprint MT Shadow;
+ 
+}
+h1{
+    color: #000000;
+font-size: 20pt;
+font-family:Imprint MT Shadow;
+}
+p{
+  display: block;
+  float: left;
+  clear: right;
+  text-align: left;
+  width: 80%;
+  padding: .4em 0 0 0;
+  margin: .10em .5em 0 0;
+  color: #000000;
+}
+th{
+ color: #000000;
+font-size: 10pt;
+font-family:Imprint MT Shadow;
+}
+
+label {
+  display: block;
+  float: left;
+  clear: left;
+  text-align: right;
+  width: 45%;
+  padding: .2em 0 0 0;
+  margin: .2em .5em 0 0;
+}
+
+
+
+
+
+
